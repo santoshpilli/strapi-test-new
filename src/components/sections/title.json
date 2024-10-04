@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_titles",
+  "info": {
+    "displayName": "title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.heading"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.description"
+    }
+  }
+}

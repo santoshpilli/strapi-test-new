@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_adapting_sections",
+  "info": {
+    "displayName": "AdaptingSections"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.operational-iems"
+    }
+  }
+}

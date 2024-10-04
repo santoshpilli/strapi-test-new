@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections2_slider_sections",
+  "info": {
+    "displayName": "sliderSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.slider-data"
+    }
+  }
+}

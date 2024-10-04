@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections2_feature_section_right_texts",
+  "info": {
+    "displayName": "FeatureSectionRightText"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.excellence-items"
+    }
+  }
+}

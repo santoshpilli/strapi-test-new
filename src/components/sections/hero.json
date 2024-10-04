@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_herosections",
+  "info": {
+    "displayName": "HeroSection",
+    "description": "A component for the hero section with title, description, background image, search bar, and button."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "searchBarPlaceholder": {
+      "type": "string",
+      "default": "Search...",
+      "description": "Placeholder text for the search bar."
+    },
+    "buttoncta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-cta"
+    }
+  }
+}

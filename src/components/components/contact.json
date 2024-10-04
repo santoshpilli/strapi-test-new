@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "note": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

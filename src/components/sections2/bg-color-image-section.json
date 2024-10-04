@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections2_bg_color_image_sections",
+  "info": {
+    "displayName": "BgColorImageSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.items"
+    }
+  }
+}

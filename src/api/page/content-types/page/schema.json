@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "^[A-Za-z0-9-_.~/]*$"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections2.hero-section",
+        "sections2.card-img-section",
+        "sections2.right-imgleft-text-section",
+        "sections2.contact-section",
+        "sections2.faq-section",
+        "sections2.threeimg-section",
+        "sections2.leftimg-righttext-section",
+        "sections2.card-merge-section",
+        "sections2.bg-color-image-section",
+        "sections2.round-img-section",
+        "sections2.features-section",
+        "sections2.four-card-section",
+        "sections2.feature-section-right-text",
+        "sections2.why-opt-section",
+        "sections2.description-section",
+        "sections2.slider-section"
+      ]
+    }
+  }
+}

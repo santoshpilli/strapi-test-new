@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections2_contact_sections",
+  "info": {
+    "displayName": "ContactSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "note": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "input": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.inputfield"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-cta"
+    }
+  }
+}

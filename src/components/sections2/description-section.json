@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections2_description_sections",
+  "info": {
+    "displayName": "DescriptionSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

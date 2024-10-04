@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_button_ctas",
+  "info": {
+    "displayName": "buttonCta"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

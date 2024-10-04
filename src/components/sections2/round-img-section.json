@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections2_round_img_sections",
+  "info": {
+    "displayName": "RoundImgSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.excellence-items"
+    }
+  }
+}

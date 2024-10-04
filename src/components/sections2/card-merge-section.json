@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections2_card_merge_sections",
+  "info": {
+    "displayName": "cardMergeSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.merge-cards"
+    }
+  }
+}

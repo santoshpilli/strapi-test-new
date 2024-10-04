@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_components_slider_data",
+  "info": {
+    "displayName": "SliderData"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "leftIconImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "leftIconClasses": {
+      "type": "text"
+    },
+    "rightIconClasses": {
+      "type": "text"
+    },
+    "rightIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

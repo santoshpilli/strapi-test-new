@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_components_platform_sections",
+    "info": {
+      "displayName": "PlatformSection",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "Description": {
+        "type": "text"
+      },
+      "items": {
+        "type": "component",
+        "repeatable": true,
+        "component": "components.platform-items"
+      }
+    }
+  }
+  

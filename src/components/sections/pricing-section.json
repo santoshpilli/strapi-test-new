@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_pricing_sections",
+  "info": {
+    "displayName": "PricingSection"
+  },
+  "options": {},
+  "attributes": {
+    "titles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.pricing"
+    },
+    "buttoncta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-cta"
+    }
+  }
+}

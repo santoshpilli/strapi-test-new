@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections2_why_opt_sections",
+  "info": {
+    "displayName": "whyOptSection"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.excellence-items"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

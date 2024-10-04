@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_heading_s",
+  "info": {
+    "displayName": "heading ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "style": {
+      "type": "json"
+    }
+  }
+}

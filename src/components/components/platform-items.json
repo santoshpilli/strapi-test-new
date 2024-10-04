@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_platform_items",
+  "info": {
+    "displayName": "PlatformItems"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

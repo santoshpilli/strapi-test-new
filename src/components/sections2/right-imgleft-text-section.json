@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections2_right_imgleft_text_sections",
+  "info": {
+    "displayName": "rightImgleftTextSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.items"
+    }
+  }
+}

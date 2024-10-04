@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections2_four_card_sections",
+  "info": {
+    "displayName": "fourCardSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.excellence-items"
+    }
+  }
+}
